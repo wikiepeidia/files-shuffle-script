@@ -1,4 +1,4 @@
-# Files Shuffle 🔀 Scripts
+# Files Shuffle 🔀 Script
 
 This script shuffles all files in a folder.
 
@@ -45,7 +45,7 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 
 - Build number 1.
 - Optimized by Chat GPT.
-- Shuffle speed improved by ~3x.
+- Shuffle speed improved by ~3-4x.
 - Fails to "find files" and copy them to the destination.
 
 ### V1-BETA
@@ -68,7 +68,7 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 
 - Build NO: 4.
 - Rewritten in PowerShell.
-- Speed improved by ~5x compared to V0.
+- Speed improved by ~5-8x compared to V0.
 - Does not put shuffled files into the current folder beside 1 file.
 
 ### V2-RELEASE
@@ -78,3 +78,4 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 - Complete functional and recommended to use.
 
 *Please run `Set-ExecutionPolicy -ExecutionPolicy bypass` (PS must admin) then press A if you never run PS scripts before.*
+*This script is guranteed to run when executed in the same folder as powershell (path is much different than cmd) and make sure that is should be `& '.\file.ps1' "PATH TO FOLDER"`*
