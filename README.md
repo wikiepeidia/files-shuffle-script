@@ -40,6 +40,8 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 - Build NO: 0.
 - Ripped off Reddit/Quora (unknown).
 - Slow when lots of files.
+- consistencies: 90% (it can sometimes fail to move file)
+- file name consisting of $, ! symbols will fail to suffle and cause more bugs.
 
 ### V1-ALPHA
 
@@ -70,6 +72,7 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 - Rewritten in PowerShell.
 - Speed improved by ~5-8x compared to V0.
 - Does not put shuffled files into the current folder beside 1 file.
+- All bugs from V0 has been fixed.
 
 ### V2-RELEASE
 
