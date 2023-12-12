@@ -34,7 +34,7 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 4. Bing AI (December 12, 2023).
 
 ## RELEASES
-
+[Download Latest Release](https://github.com/wikiepeidia/files-shuffle-script/releases)
 ### V0
 
 - Build NO: 0.
