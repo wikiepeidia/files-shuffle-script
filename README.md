@@ -28,7 +28,7 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 
 ## Sources
 
-1. Somewhere on Reddit or Quora (October 2020).
+1. Somewhere on Reddit or Quora (October 2022).
 2. Chat GPT (December 12, 2023).
 3. Google Bard (December 12, 2023).
 4. Bing AI (December 12, 2023).
@@ -76,6 +76,6 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 - Build NO: 5.
 - FIXED V2-BETA bugs.
 - Complete functional and recommended to use.
-
+  
 *Please run `Set-ExecutionPolicy -ExecutionPolicy bypass` (PS must admin) then press A if you never run PS scripts before.*
 *This script is guranteed to run when executed in the same folder as powershell (path is much different than cmd) and make sure that is should be `& '.\file.ps1' "PATH TO FOLDER"`*
