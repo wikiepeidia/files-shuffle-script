@@ -24,7 +24,7 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 2. Put it somewhere if you want.
 3. Prepare the folder you want to shuffle.
 4. Open either CMD or PowerShell (recommended in where you put the script).
-5. Run the command with perspective quotes and filenames.
+5. Run the command with perspective quotes and the script's path.
 
 ## Sources
 
