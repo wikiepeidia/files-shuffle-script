@@ -12,7 +12,7 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 - Gain an easy ability to change a game's asset very quickly.
 - And more, based on your usage.
 
-*Notices: Do not use this script to destroy someone's project and throw it publicly.*
+*Notices: Do not use this script to destroy someone's project and throw it publicly.Don't use this script in dangerous areas such as system32...*
 
 ## Tutorial and Demonstration
 
