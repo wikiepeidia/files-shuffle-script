@@ -78,8 +78,12 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 
 - Build NO: 5.
 - FIXED V2-BETA bugs.
-- Complete functional and recommended to use.
 - current BUG: it suffle the folder as well, *make sure there is NO folder inside where you suffle*
+
+### V2.1
+- Build NO 6
+- FIX V2-RELAEASE bug.
+
   
 *Please run `Set-ExecutionPolicy -ExecutionPolicy bypass` (PS must admin) then press A if you never run PS scripts before.*
 *This script is guranteed to run when executed in the same folder as powershell (path is much different than cmd) and make sure that is should be `& '.\file.ps1' "PATH TO FOLDER"`*
