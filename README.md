@@ -1,6 +1,6 @@
 # Files Shuffle 🔀 Script
 
-This script shuffles all files in a folder.
+This script shuffles all files in a desired folder.
 
 ## Usage
 
@@ -10,9 +10,10 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 
 - Easy shuffle files.
 - Gain an easy ability to change a game's asset very quickly.
+- Make privacies
 - And more, based on your usage.
 
-*Notices: Do not use this script to destroy someone's project and throw it publicly.Don't use this script in dangerous areas such as system32...*
+*Notices: Do not use this script to destroy someone's project and throw it publicly.Don't use this script in dangerous areas such as system32... If you get access is denied, then you might need to check for ownership*
 
 ## Tutorial and Demonstration
 
@@ -87,3 +88,4 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
   
 *Please run `Set-ExecutionPolicy -ExecutionPolicy bypass` (PS must admin) then press A if you never run PS scripts before.*
 *This script is guranteed to run when executed in the same folder as powershell (path is much different than cmd) and make sure that is should be `& '.\file.ps1' "PATH TO FOLDER"`*
+*You can apply file masks to avoid shuffling another file that has a different extension. For instance, if you are shuffling in a folder containing **.png** and **.wav** files, you can run `& '.\file.ps1' "PATH TO FOLDER" *.FILEEXTENSION` to do so.*
