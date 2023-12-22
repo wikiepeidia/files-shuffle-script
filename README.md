@@ -1,7 +1,13 @@
 # Files Shuffle 🔀 Script
 
 This script shuffles all files in a desired folder.
-
+## Table of Contents
+- [Usage](#Usage)
+- [Benefit](#Benefits)
+- [Tutorial, demonstration](#tutorial-and-demonstration)
+- [Contributing](#Sources)
+- [release](#RELEASES)
+- [notices](#Notices)
 ## Usage
 
 This script shuffles files in a single folder. For instance, we have **1.mp3**, **2.mp4**, **3.png**. After shuffling, we will have **1.mp3** with the content from **2.mp4**, and the file has the wrong extension. Similarly, **2.mp4** now is **3.png** content and can't be opened, and so on.
@@ -85,7 +91,12 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 - Build NO 6
 - FIX V2-RELAEASE bug.
 
-  
-*Please run `Set-ExecutionPolicy -ExecutionPolicy bypass` (PS must admin) then press A if you never run PS scripts before.*
-*This script is guranteed to run when executed in the same folder as powershell (path is much different than cmd) and make sure that is should be `& '.\file.ps1' "PATH TO FOLDER"`*
-*You can apply file masks to avoid shuffling another file that has a different extension. For instance, if you are shuffling in a folder containing **.png** and **.wav** files, you can run `& '.\file.ps1' "PATH TO FOLDER" *.FILEEXTENSION` to do so.*
+## Notices
+### Batch File Script:
+- This script can be run in **PowerShell**.
+- It may run very slowly when dealing with a large number of files, special characters in file names, and a large amount of text.
+- It has the potential to consume a significant amount of disk space.
+### Powersehll
+- *Please run `Set-ExecutionPolicy -ExecutionPolicy bypass` (PS must admin) then press A if you never run PS scripts before.*
+- *This script is guranteed to run when executed in the same folder as powershell (path is much different than cmd) and make sure that is should be `& '.\file.ps1' "PATH TO FOLDER"`*
+- *You can apply file masks to avoid shuffling another file that has a different extension. For instance, if you are shuffling in a folder containing **.png** and **.wav** files, you can run `& '.\file.ps1' "PATH TO FOLDER" *.FILEEXTENSION` to do so.*
