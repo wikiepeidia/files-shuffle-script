@@ -44,7 +44,7 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 [Download Latest Release](https://github.com/wikiepeidia/files-shuffle-script/releases)
 ### V0
 
-- Build NO: 0.
+- Build NO: 0.(10/2022)
 - Ripped off Reddit/Quora/StackOverFlow (unknown, using copyleaks does not yield results-as expected).
 - Slow when lots of files.
 - consistencies: 90% (it can sometimes fail to move file)
@@ -52,21 +52,21 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 
 ### V1-ALPHA
 
-- Build number 1.
+- Build number 1.(12/12/2023)
 - Optimized by Chat GPT.
 - Shuffle speed improved by ~3-4x.
 - Fails to "find files" and copy them to the destination.
 
 ### V1-BETA
 
-- Build number 2.
+- Build number 2.(12/12/2023)
 - Optimized by Chat GPT 2nd time.
 - Added more DEBUG.
 - Still does not work.
 
 ### V1-Release Candidate
 
-- Build number 3.
+- Build number 3.(12/12/2023)
 - Optimized by Google Bard and Bing AI because GPT has issues.
 - Compared to V1-ALPHA, speed reduced by ~50%.
 - STILL DOES NOT WORK.
@@ -75,7 +75,7 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 
 ### V2-BETA
 
-- Build NO: 4.
+- Build NO: 4.(12/12/2023)
 - Rewritten in PowerShell.
 - Speed improved by ~5-8x compared to V0.
 - Does not put shuffled files into the current folder beside 1 file.
@@ -83,11 +83,11 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 
 ### V2-RELEASE
 
-- Build NO: 5.
+- Build NO: 5.(12/12/2023)
 - FIXED V2-BETA bugs.
 - current BUG: it suffle the folder as well, *make sure there is NO folder inside where you suffle*
 
-### V2.1
+### V2.1(~13/12/2023)
 - Build NO 6
 - FIX V2-RELAEASE bug.
 
