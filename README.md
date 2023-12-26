@@ -92,8 +92,12 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 - FIX V2-RELAEASE bug.
 
 ## Notices
+### commons:
+- All scripts are safe and will not harm your PC. If you have any concerns, feel free to ask the chat GPT.
+- It is recommended to run cmd/powershell as an administrator, although it is not  necessary.
+- Please note that antivirus software may interfere with this script. If any issues arise, you may need to disable the antivirus temporarily.
 ### Batch File Script:
-- This script can be run in **PowerShell**.
+- This script can be run in **PowerShell** as well.
 - It may run very slowly when dealing with a large number of files, special characters in file names, and a large amount of text.
 - It has the potential to consume a significant amount of disk space.
 ### Powersehll
