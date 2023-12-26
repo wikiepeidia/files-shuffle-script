@@ -45,7 +45,7 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 ### V0
 
 - Build NO: 0.
-- Ripped off Reddit/Quora (unknown).
+- Ripped off Reddit/Quora/StackOverFlow (unknown, using copyleaks does not yield results-as expected).
 - Slow when lots of files.
 - consistencies: 90% (it can sometimes fail to move file)
 - file name consisting of $, ! symbols will fail to suffle and cause more bugs.
