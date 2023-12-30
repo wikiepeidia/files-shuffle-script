@@ -50,36 +50,6 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 - consistencies: 90% (it can sometimes fail to move file)
 - file name consisting of $, ! symbols will fail to suffle and cause more bugs.
 
-### V1-ALPHA
-
-- Build number 1.(12/12/2023)
-- Optimized by Chat GPT.
-- Shuffle speed improved by ~3-4x.
-- Fails to "find files" and copy them to the destination.
-
-### V1-BETA
-
-- Build number 2.(12/12/2023)
-- Optimized by Chat GPT 2nd time.
-- Added more DEBUG.
-- Still does not work.
-
-### V1-Release Candidate
-
-- Build number 3.(12/12/2023)
-- Optimized by Google Bard and Bing AI because GPT has issues.
-- Compared to V1-ALPHA, speed reduced by ~50%.
-- STILL DOES NOT WORK.
-
-*This is the end for batch file script; move to PS for more PERF*
-
-### V2-BETA
-
-- Build NO: 4.(12/12/2023)
-- Rewritten in PowerShell.
-- Speed improved by ~5-8x compared to V0.
-- Does not put shuffled files into the current folder beside 1 file.
-- All bugs from V0 has been fixed.
 
 ### V2-RELEASE
 
@@ -87,13 +57,56 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 - FIXED V2-BETA bugs.
 - current BUG: it suffle the folder as well, *make sure there is NO folder inside where you suffle*
 
-### V2.1(~13/12/2023)
-- Build NO 6
-- FIX V2-RELAEASE bug.
+### Version 2.1 (up to 13/12/2023)
+- Build number 6
+- Fixed V2-RELEASE bug.
+- **This version is considered the best due to its speed and independence from other software.**
+## BETA RELEASES:
+- These versions may not achieve optimal performance and could pose a risk of data loss or errors. They are intended for debugging purposes only.
+### V1-ALPHA
+- Build number 1 (12/12/2023)
+- Optimized by Chat GPT
+- Shuffle speed improved by approximately 3-4 times
+- Fails to "find files" and copy them to the destination
 
+### V1-BETA
+- Build number 2 (12/12/2023)
+- Optimized by Chat GPT for the second time
+- Added more DEBUG
+- Still non-functional
+
+### V1-Release Candidate
+- Build number 3 (12/12/2023)
+- Optimized by Google Bard and Bing AI due to issues with GPT
+- Speed reduced by approximately 50% compared to V1-ALPHA
+- STILL DOES NOT WORK
+* This marks the end for the batch file script; transition to PowerShell for improved performance *
+
+### V2-BETA
+- Build number 4 (12/12/2023)
+- Rewritten in PowerShell
+- Speed improved by approximately 5-8 times compared to V0
+- Does not place shuffled files into the current folder, except for one file
+- All bugs from V0 have been fixed
+
+### V2.2ALPHA
+- Build number 23 (29/12/2023)
+- Desperate attempt from Chat GPT to provide multi-core, parallel support
+- Only shifts the files by 1, e.g., if we have 1.mp3, 2.mp3, 3.mp3, and 4.mp3, the first shuffle results in 4.mp3, 1.mp3, 2.mp3, 3.mp3. We want it to fully randomize.
+
+### V2.2 BETA
+- Build number 26 (29/12/2023)
+- Speed can be significantly increased on low-end PCs/laptops by 1.5-2 times, but on high-end PCs, it is slower, for some reason?
+- Shuffles files with random file names and extensions, such as 33liesll.rnx and tcrfwkaw.he5
+
+### V3- Python Development Builds
+- Build numbers 27-35 (29/12/2023)
+- None of these builds are functional. It is a fact that Chat GPT automatically switched to Python after encountering several failed PowerShell builds.
+- These builds did not meet the requirement of "no other software involved" and some even required additional libraries.
 ## Notices
 ### commons:
 - All scripts are safe and will not harm your PC. If you have any concerns, feel free to ask the chat GPT.
+- Using [beta](#beta-releases) version might result in loss /error in data, as well as bad performance.
 - It is recommended to run cmd/powershell as an administrator, although it is not  necessary.
 - Please note that antivirus software may interfere with this script. If any issues arise, you may need to disable the antivirus temporarily.
 ### Batch File Script:
