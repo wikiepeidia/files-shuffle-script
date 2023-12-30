@@ -101,6 +101,7 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 
 ### V3- Python Development Builds
 - Build numbers 28-37 (29/12/2023)
+- These builds aimed to enhance performance further by utilizing GPU's cuda cores, but this feature was later removed.
 - None of these builds are functional. It is a fact that Chat GPT automatically switched to Python after encountering several failed PowerShell builds.
 - These builds did not meet the requirement of "no other software involved" and some even required additional libraries.
 ## Notices
