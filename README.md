@@ -98,7 +98,8 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 - Build number 26 (29/12/2023)
 - Speed can be significantly increased on low-end PCs/laptops by 1.5-2 times, but on high-end PCs, it is slower, for some reason?
 - Shuffles files with random file names and extensions, such as 33liesll.rnx and tcrfwkaw.he5
-
+### v2.2 release
+- withthin just a few builds from github copilot, we now have a functional script that probably increase performance in old laptops and pcs. Please notice that it might be a negative effect on higher end pcs.
 ### V3- Python Development Builds
 - Build numbers 28-37 (29/12/2023)
 - These builds aimed to enhance performance further by utilizing GPU's cuda cores, but this feature was later removed.
