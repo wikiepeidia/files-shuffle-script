@@ -57,8 +57,8 @@ This script shuffles files in a single folder. For instance, we have **1.mp3**, 
 - FIXED V2-BETA bugs.
 - current BUG: it suffle the folder as well, *make sure there is NO folder inside where you suffle*
 
-### Version 2.1 (up to 13/12/2023)
-- Build number 6
+### V2.1
+- Build number 6(12/12/23)
 - Fixed V2-RELEASE bug.
 - **This version is considered the best due to its speed and independence from other software.**
 ## BETA RELEASES:
