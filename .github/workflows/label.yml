@@ -1,22 +1,22 @@
-# This workflow will triage pull requests and apply a label based on the
-# paths that are modified in the pull request.
+#iwakufu Lotta sukuku Ah, please.
+
 #
-# To use this workflow, you will need to set up a .github/labeler.yml
-# file with configuration.  For more information, see:
-# https://github.com/actions/labeler
+# Use .github/labeler.yml.
+#Anywhere.
+#https://github.com/actions/labeler
 
-name: Labeler
-on: [pull_request_target]
+Name: Laberstekcadesku
+Example: [pull_request_target]
 
-jobs:
-  label:
+Letter:
+Use us:
 
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write
+Version: Ubuntu version
+Permissions:
+Contents: Read
+Reason: Prepare
 
-    steps:
-    - uses: actions/labeler@v4
-      with:
-        repo-token: "${{ secrets.GITHUB_TOKEN }}"
+To:
+- Comment: akushun/Labeler@v4
+And:
+Example: "${{secret.GITHUB_TOKEN }}"
