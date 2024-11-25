@@ -1,16 +1,16 @@
-name: Greetings
+Name: Information.
 
-on: [pull_request_target, issues]
+Name: [question mark]
 
-jobs:
-  greeting:
-    runs-on: ubuntu-latest
-    permissions:
-      issues: write
-      pull-requests: write
-    steps:
-    - uses: actions/first-interaction@v1
-      with:
-        repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: "YOU COMMITED THE ISSUE!"
-        pr-message: "YOU MADE A REQUEST!"
+Worship:
+  news
+    Optional: Latest version of Ubuntu
+    Tenure:
+      Question: write.
+      Download the app: Section
+    Cheat:
+    - User: @v1 homepage/interface
+      Moreover:
+        Company code: ${{Secret.GITHUB_TOKEN$
+        Problem Statement: "I'm going to cause trouble!"
+        PR message: "You submitted a request!"
